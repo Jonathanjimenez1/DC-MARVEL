@@ -1,0 +1,119 @@
+.grande{font-size: larger;}
+
+#formulario {margin: auto; 
+    border-radius: 25px;
+    background: #3a5cca;
+    padding: 20px;
+  
+    
+}
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    
+  }
+
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    
+    height: 0;
+    width: 0;
+  }
+
+
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+  }
+ 
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+
+  .checkmark {
+    position: absolute;
+    margin-left: 0.9%;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+
+  form button{ margin-left: 4%;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+
+}
+
+form h2{
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+font-size: 1.5rem;
+margin-left: 2.5%;
+}  
+
+#gracias{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+  background-color:#3a5cca; 
+  display:none
+}
+
+#gracias p{  
+    position: relative;
+    top: 120px;
+    font-size:larger;
+    font-family: fantasy;
+    
+}
+
+.bloque{display:block;}
+
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,86 @@
+
+*{overflow-x: hidden;
+  
+}
+
+.mostrar{display: flex;
+
+}
+
+
+
+.personajes{
+    border-bottom: solid 3px red;
+}
+
+.comics{text-align: center; 
+    margin-top: 1%;
+}
+
+
+
+.centrar{text-align: center;}
+
+
+
+
+
+
+.imagenes { 
+    overflow-y: hidden;
+  text-align: center; 
+  
+  
+  
+  
+
+}
+    
+  .imagenes img{
+
+    width:35%;
+   
+    }
+
+
+    
+
+
+  
+  
+  
+  /* thor */
+
+
+  #gif{ text-align: center;}
+
+
+  #gif img{width: 20%; }
+
+ .esconder{display: none;}
+
+ .mostrar{display: flex; 
+         flex-direction: column;}
+
+
+  @keyframes thanos-key {
+    from{
+      transform: scale(0.5);
+    
+      
+  }
+
+  to{ transform: scale(1);
+      
+  }
+    
+  }
+    
+  
+
+
+
+
+ 
+
+

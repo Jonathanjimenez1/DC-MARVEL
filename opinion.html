@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tu opinion </title>
+    <link rel="stylesheet" href="Css/sitio.css">
+    <link rel="stylesheet" href="Css/comun.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/opinion.css">
+</head>
+<body>
+
+    <header>
+
+          <div id="logo">
+           <a href="index.html"> <img src="Css/imagenes/logo.jpg" alt="logo" ></a>
+  
+           </div>
+
+
+    
+
+        
+        <div class="nav-menu">
+
+            <ul class="nav-ul">
+  
+              <li > <a href="index.html"> Inicio </a>  </li>
+  
+              <li > <a href="dc.html"> Universo DC   </a>  <i class="boton-submenu1"><img src="Css/imagenes/desplegable.png" alt="" ></i>  
+              
+               <ul class="submenu"> 
+                <li class="sub-li1"> <a href="personajes-dc.html">personajes </a></li>
+               </ul>
+  
+              </li>
+  
+              <li > <a href="marvel.html"> Marvel universo  </a> <i class="boton-submenu2"><img src="Css/imagenes/desplegable.png" alt="" onclick="submenu()"></i> 
+  
+                <ul class="submenu"> 
+                  <li class="sub-li2"> <a href="personajes-marvel.html">personajes </a></li>
+                </ul>
+              </li>
+           
+              <li > <a href="opinion.html"> Tu opinion </a></li>
+               
+            
+  
+            </ul>
+  
+  
+  
+          </div>
+
+          <div id="boton-menu">
+            <img src="Css/imagenes/menu.png" alt="">
+          </div>
+
+
+
+    </header>
+
+      <div class="texto-blanco grande" >
+
+        <h1>Tu opinión</h1> <br>
+
+        <p> Para finalizar me gustaría saber tu opinión a una pregunta complicada que hasta mí me cuesta responder, <br>
+             ¿Te gusta más el Universo Marvel o el Universo DC?, aquí abajo te dejo un formulario para que respondas, <br>
+              muchas gracias por visitar mi web, ¡espero que te haya gustado! Para cualquier consulta puedes contactar conmigo, <br>
+               en el pie de la página tienes mis datos de contacto.  </p>
+
+
+       </div> <br> <br>
+
+
+       <div id="formulario" class="texto-blanco">
+
+         
+
+        <form>
+          
+                    <h2> Formulario  </h2> <br> 
+
+            
+
+                
+                <label class="container">Me quedo con Marvel
+                  <input type="radio" name="elegir" value="marvel">
+                  <span class="checkmark"></span>
+                </label>
+
+
+                <label class="container">Me quedo con DC
+                  <input type="radio" name="elegir" value="DC">
+                  <span class="checkmark"></span>
+                </label>
+
+
+
+
+           
+                <button type="submit" id="botonform" onclick="hide()">Enviar formulario</button>
+
+    
+    
+         </form>
+
+
+       </div>
+
+
+
+        <div id="gracias"  class="texto-blanco">
+           
+          <p> 🙏​ Gracias por participar en la encuesta 🙏​ <br>
+          ​         tu voto ha sido registrado
+          </p>
+
+        </div>
+
+
+
+
+          
+
+
+
+       <footer class="pie">
+
+        <article class="legal texto-blanco"> 
+
+          <h3>Politica de privacidad</h3> 
+          
+          
+          <li class="li-legal texto-blanco">
+
+            <a href="cookies.html" target="_blank">Cookies</a>
+            
+          </li>
+
+
+          <li class="li-legal texto-blanco">
+
+              <a href="politicas.html" target="_blank"> Politica privacidad  </a> 
+          </li>
+           
+        </article>
+
+        
+        <article class="nombre">
+
+          <h3 class="texto-blanco"> Contacto </h3> 
+
+        
+
+          <a href="https://www.linkedin.com/in/jonathan-jimenez-carbonell/
+          " target="_blank"><img src="Css/imagenes/Linkedin-icono.png"   alt=""  class="iconos-redes"></a> 
+            
+           
+          <a href="mailto:jonathanweb1@outlook.com" "><img src="Css/imagenes/mail icono.png" alt="" class="iconos-redes"></a> 
+
+
+        </article>
+
+      </footer>
+
+        <div class="texto-pie texto-blanco">
+          
+         <p> &copy;  Jonathan jimenez &#124; Apasionado del diseño y desarollo web </p>
+        </div>
+
+
+
+    <script src="Js/responsive.js"></script>
+    <script src="Js/opinion.js"></script>
+</body>
+</html>

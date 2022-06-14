@@ -1,0 +1,115 @@
+@font-face {
+    font-family:"comics" ;
+    src: url(../Fuentes/fonts/Bakso.otf);
+}
+
+
+
+h2{text-align: center;}
+
+.comics{font-family: "comics";}
+
+.personajes{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2% ;
+    border-bottom: solid 3px red;
+    
+}
+
+
+
+
+.personaje{
+    display: flex;
+    justify-content: space-around;
+
+    
+    text-align: center;
+
+    margin-top: 2%;
+
+}
+
+
+
+@keyframes batman {
+    from{
+        transform: translateY(-30px);
+      
+        
+    }
+
+    to{ transform: translateY(opx);
+        
+    }
+    
+}
+.play{
+    text-align: center;
+   cursor: pointer;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:larger;
+   background-color: brown;
+   }
+
+   .centrar-boton{text-align: center;
+    
+}
+
+
+.batman{width:50%;
+    position: relative;
+    animation-name: batman;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+/* Batman*/
+
+@keyframes superman {
+    from{
+        
+        transform:scale(0.5)
+        
+    }
+
+    to{ transform: translateY(opx);
+    
+    }
+    
+}
+
+
+.superman{width:50%;
+    position: relative;
+    animation-name: superman;
+    animation-duration: 9s;
+    animation-delay: 2;
+    animation-iteration-count: infinite;
+}
+
+
+/* Superman*/
+
+@keyframes joker {
+    0%{transform: rotate(360deg);}
+   
+    
+    
+}
+
+
+
+
+.joker{width:50%;
+    position: relative;
+    animation-name: joker;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+
+}
+
+/* Joker */
+

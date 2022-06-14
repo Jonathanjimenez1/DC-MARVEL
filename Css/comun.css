@@ -1,0 +1,63 @@
+@font-face {
+    font-family:"comics" ;
+    src: url(../Fuentes/fonts/Bakso.otf);
+}
+
+.comics{font-family: "comics";}
+
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    }
+
+
+
+.texto-historia h1{
+    font-size: 2em;
+    
+
+}
+
+
+.texto-historia p{
+
+    font-size: medium;
+
+}
+
+
+
+
+ 
+.texto-portada img{
+    width: min-content;
+    margin-top: 2%;
+    
+}
+
+/* Historia*/
+
+.personajes{display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.personajes h2{color: blue;
+    font-size: 2.4em;
+
+}
+
+.boton-personajes{
+ padding: 1%;
+ margin: auto;
+cursor: pointer;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:larger;
+background-color: brown;
+width: 20%;
+
+}
